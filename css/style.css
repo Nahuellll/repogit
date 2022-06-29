@@ -58,6 +58,8 @@ body {
 	border-color: rgb( 160, 41, 230);
 	border-width: 0.1rem;
 	margin: 0.5rem auto; 
+	animation-name: imagenOp;
+	animation-duration: 2s;
 	}
 
 .divLogo{
@@ -100,6 +102,15 @@ a{
 	height:50% ;
 	margin: 0.5rem auto;
 	grid-area: section1;
+} 
+/* keyframes */
+@keyframes deslizamiento{
+	from{margin-left: 100%;}
+	to{margin-left: 0%;}
+}
+@keyframes imagenOp {
+	0%{opacity: 0%;}
+	100%{opacity: 100%;}
 }
 /* main */
 .main{
@@ -119,6 +130,8 @@ a{
 	justify-content: center;
 	align-items: center;
 	padding: 10vh;
+	animation-name: deslizamiento;
+	animation-duration: 3s;
 }
 	button {
 		font-family: 'Open Sans', sans-serif;
@@ -204,6 +217,7 @@ padding: 1rem auto;
 	width: 40vh;
 	height: 30vh;
 	grid-area: azul;
+
 }
 
 .negro{
