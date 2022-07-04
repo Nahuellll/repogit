@@ -16,22 +16,6 @@ body {
 	background-image:url("../img/fondo-elegante-textu_2221-8193.jpg") ;
 	background-attachment: fixed;
 }
-/* grid o grilla contenedor */
-
-.gridContenedor{
-	display: grid;
-	grid-template-areas:
-	"header header"
-	"main main"
-	"section1 section1"
-	"section2 section2"
-	"footer footer";
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-	align-items: center;
-	width: 100%;					
-}
-
 /* titulos */
 .titles {
 	font-family: 'Open Sans', sans-serif;
@@ -58,16 +42,11 @@ body {
 	animation-name: imagenOp;
 	animation-duration: 2s;
 	}
-/* main */
-.main{
-	grid-area: main;
-}
 /* Mapa */
 .maps {
 	width: 100%;
 	height:50% ;
 	margin: 0.5rem auto;
-	grid-area: section1;
 } 
 /* suscripciones */
 .fondo{
@@ -75,7 +54,6 @@ body {
 	border-style:solid;
 	border-color: #4334eb;
 	border-width: 0.1rem;
-	grid-area: section2;
 }
 /* Footer */
 .bgFoot{
@@ -117,7 +95,7 @@ body {
 	0%{opacity: 0%;}
 	100%{opacity: 100%;}
 }
-/* pag index  */
+/* PAG INDEX */
 .backgroundColor{
 	background-color:#012677e6;
 }
@@ -152,7 +130,7 @@ button:hover{
 	background-color: #00b4fc;
 	color: #ffffff;
 }
-/* pag contacto */
+/* PAG CONTACTO */
 .divForm label{
 	font-size: x-large;
 }
@@ -169,7 +147,7 @@ button{
 .divForm textarea{
 	font-size: x-large;
 }
-/* pag telas por color con grid*/
+/* PAG TELAS POR COLOR CON GRID*/
 .gridContenedorColor{
 	display: grid;
 	grid-template-areas:"azul negro celeste"
@@ -260,13 +238,13 @@ article h2{
 	color: #2AF1F5;
 	text-align: center;
 }
-/* pag quienes somos */
+/* PAG QUIENES SOMOS */
 .textNosotros{
 		font-family: 'Roboto', sans-serif;
 		font-size: 3.6vh;
 	}
 
-/* pag telas por usos */
+/* PAG TELAS POR USOS */
 .buscador{
 	display: flex;
 	flex-direction: row;
@@ -276,7 +254,7 @@ article h2{
 	font-size: 3vh;
 	font-family:'Open Sans', sans-serif;  
 }
-/* ---------------media queries---------------*/
+/* ---------------MEDIA QUERIES---------------*/
 @media (min-width: 280px) and (max-width: 991px){
 	#barraNav img{
 		width:30vw !important
