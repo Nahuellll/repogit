@@ -5,35 +5,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Todo telas - El mundo de la tela</title>	
 	<link rel="shortcut icon" href="../img/favicon.png">
-	<link rel="stylesheet" href="../css/style.css">	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!-- mi css -->
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<div class="gridPagColor"> 
-		<header class="contenedor" >
-			<div class="divLogo">
-				<a href="../index.html">
-					<img src="../img/newlogo.svg" alt="logo de todo telas el mundo de la tela">
-				</a>
-			</div>
-		<!-- ends logo  -->
-		<nav>
-			<ol class="barraNav">
-				<li>
-					<a href="../views/telasporusos.html">Telas por usos</a>
-				</li>
-				<li>
-					<a href="../views/telasporcolor.html">Telas por color</a>
-				</li>
-				<li>
-					<a href="../views/contacto.html">Contacto</a>
-				</li>
-				<li>
-					<a href="../views/quienessomos.html">Quienes somos</a>
-				</li>
-			</ol>
-		</nav>
-		<!-- ends nav -->
-	</header>
+<!-- navbar boostrap -->
+<nav class="navbar navbar-expand-lg backgroundColor"id="barraNav">
+	<div class="container-fluid">
+	<a class="navbar-brand" href="index.html">
+		<img src="../img/newlogo.svg" alt="logo de todotelas">
+	</a>
+	<button class="navbar-toggler btnHamb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon btnHamb"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+		<li class="nav-item">
+			<a class="nav-link " aria-current="page" href="../views/telasporcolor.html">Telas por color</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="../views/telasporusos.html">Telas por usos</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="../views/contacto.html">Contacto</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="../views/quienessomos.html">Quienes somos</a>
+		</li>
+		</ul>
+		<form class="d-flex" role="search">
+		<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		<button class="btnButton" type="submit">Buscar</button>
+		</form>
+	</div>
+	</div>
+</nav>
+<!-- finaliza navbar -->
 	<main>
 		<header >
 			<h1 class="titles">Telas por color</h1>
@@ -69,39 +77,114 @@
 			</article>
 			</div>
 		</section>
+	</main>
+	<!-- end main -->
 		<section>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.430183379913!2d-64.51181488534453!3d-31.457350505381253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d67c3cdb68fa3%3A0xd18aef7d21e2e06!2sAv.%20Ram%C3%B3n%20J.%20C%C3%A1rcano%202800%2C%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1653875022506!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
 		</section>
-			<!-- ends map -->
-		<section class="fondo">
-			<div class="suscripciones"> 
-				<h2 class="titles">Suscribirse</h2>
-				<form action="#" >
-					<input type="text" id="email" placeholder="Email">
-					<button>Enviar</button>
-				</form> 
-			</div>
-		</section>
-			<!-- ends form -->
-	</main>
-		<footer class="piePagina">
-			<div>
-				<h3>Empresa</h3>
-				<p>
-				TodoTelas es una tienda online orientada a venta de telas y moldes de diseño y moda.
-				Hacemos envios a todo el pais y podes abonar con tarjeta y en cuotas.
-				Visitá nuestro club de costura para conocer más sobre tendencias.
-				</p>
-			</div>
-			<div class="iconos">
-				<a href="https://www.facebook.com" target="_blank">
-					<img src="../img/Background.svg" alt="logo-de-facebook">
-				</a>
-				<a href="https://www.instagram.com" target="_blank">
-					<img  src="../img/Instagram-icon.svg" alt="logo-de-instagram">
-				</a>
-			</div>
-		</footer> 
-	</div>
+		<!-- end map -->
+				<!-- suscripcion bootstrap -->
+				<section class=" text-center fondo">
+					<div class="container p-4 pb-0">
+						<section class="text-center">
+							<form>
+								<div class="row d-flex justify-content-center">
+									<div class="col-auto">
+										<p class="titles1">
+										Suscribite para mas novedades
+										</p>
+									</div>
+								<div class="col-md-5 col-12">
+								<!-- Email input -->
+								<div class="form-outline mb-4">
+									<input type="email" id="form5Example2" class="form-control" />
+									<label class="form-label" for="form5Example2"></label>
+								</div>
+								</div>
+								<div class="col-auto">
+								<!-- Submit button -->
+								<button type="submit" class=" btnButton mb-4">
+								Suscribirse
+								</button>
+								</div>
+							</form>
+						</section>
+					</div>
+				</section>
+				<!-- end suscripcion bootstrap -->
+		<!-- footer bootstrap -->
+			<footer class="text-center text-white bgFoot">
+				<!-- Grid container -->
+				<div class="container">
+					<!-- Section: Links -->
+					<section class="mt-5">
+						<!-- Grid row-->
+						<div class="row text-center d-flex justify-content-center pt-5">
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="font-weight-bold">
+							<a href="../views/telasporcolor.html" class="text-white">Telas por color</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="font-weight-bold">
+							<a href="../views/telasporusos.html" class="text-white">Telas por usos</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="font-weight-bold">
+							<a href="../views/contacto.html" class="text-white">Contacto</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+						<!-- Grid column -->
+						<div class="col-md-2">
+							<h6 class="font-weight-bold">
+							<a href="../views/quienessomos.html" class="text-white">Quienes somos</a>
+							</h6>
+						</div>
+						<!-- Grid column -->
+						</div>
+						<!-- Grid row-->
+					</section>
+					<!-- Section: Links -->
+					<hr class="my-5" />
+					<!-- Section: Text -->
+					<section class="mb-5">
+						<div class="row d-flex justify-content-center textFooter">
+						<div class="col-lg-8 ">
+							<p>
+								TodoTelas es una tienda online orientada a venta de telas y moldes de diseño y moda.
+								Hacemos envios a todo el pais y podes abonar con tarjeta y en cuotas.
+								Visitá nuestro club de costura para conocer más sobre tendencias.
+							</p>
+						</div>
+						</div>
+					</section>
+					<!-- Section: Text -->
+					<!-- Section: Social -->
+					<section>
+						<div class="d-flex  mb-5 bgIcon">
+						<a href="https://www.facebook.com" target="_blank" class="text-white me-4 ">
+						<i class="fab fa-facebook-f iconos"></i>
+						</a>
+						<a href="https://www.twitter.com" target="_blank" class="text-white me-4">
+						<i class="fab fa-twitter iconos"></i>
+						</a>
+						<a href="https://www.instagram.com" target="_blank" class="text-white me-4">
+						<i class="fab fa-instagram iconos"></i>
+						</a>
+					</div>
+					</section>
+					<!-- Section: Social -->
+					</div>
+					<!-- Grid container -->
+				</footer>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 </body>
 </html>
