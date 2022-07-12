@@ -1,0 +1,39 @@
+/* Footer */
+.bgFoot{
+	background-color:$terciaryColor;
+	width: 100%;
+	h6{
+        font-family: $primaryFont;
+        font-size: $fontNav;
+        color: $white;
+        a{
+            font-family:$primaryFont;
+            font-size: $fontNav;
+            text-decoration: none;
+            color:$white;
+            margin: auto;
+            overflow: hidden;
+        }
+    }
+}
+.bgIcon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+    .iconos{
+        font-size: xx-large;
+    }
+}
+.btnIcon{
+	font-size: xx-large;
+}
+.textFooter{
+		text-align: center;
+		font-size: $fontNav;
+		font-family:$footerFont;
+		font-weight: 0.8vh;
+		line-height: 3.2rem;
+		color:$black;
+}

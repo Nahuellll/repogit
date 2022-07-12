@@ -1,0 +1,31 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 62.5%;
+} 
+
+body {
+	background-image:url("../img/fondo-elegante-textu_2221-8193.jpg") ;
+	background-attachment: fixed;
+}
+ /* header */
+.imagenHeroe {
+	width:100%;
+	height:40rem;
+	border:outset;
+	border-color: $primaryColor ;
+	border-width: 0.1rem; 
+	animation-name: imagenOp;
+	animation-duration: 2s;
+	}
+/* Mapa */
+.maps {
+	width: 100%;
+	height:50% ;
+	margin: 0.5rem auto;
+} 

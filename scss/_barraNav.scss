@@ -1,0 +1,33 @@
+#barraNav{
+    background-color: $terciaryColor;
+    img{
+        width: 14vw;
+    }
+    .btnHamb{
+        background-color: $secondaryColor;
+        color: $white;
+    }
+        a{
+            font-family:$primaryFont;
+            font-size:$fontNav;
+            text-decoration: none;
+            color:$white;
+            margin: auto;
+        }
+        li{
+            margin:2vw
+    }
+}
+.btnButton{
+    background-color:$primaryColor;
+    color:$white;  
+    border-radius: 1.2rem;
+    border-color:$white;
+    font-size: 3vh;
+    font-family:$primaryFont;
+    width: 100%;
+    &:hover{
+        background-color:$secondaryColor;
+        cursor:pointer;
+    }
+}

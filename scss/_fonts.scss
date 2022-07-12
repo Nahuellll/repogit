@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+//fonts
+$primaryFont:'Open Sans', sans-serif;
+$footerFont:'Roboto Mono', monospace;
+
+//text sizing
+$titleFont:4vh;
+$titleFont2:3.6vh;
+$fontNav:2.6vh;
+
+/* titulos */
+.titles {
+	font-family: $primaryFont;
+	font-size: $titleFont;
+	font-weight: bold;
+	color:$black; 
+	text-align: center;
+	overflow: hidden;
+}
+.titles1{
+	font-family: $primaryFont;
+	font-size: $titleFont2;
+	font-weight: bold;
+	color:$white; 
+	text-align: center;
+}
