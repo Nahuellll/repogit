@@ -14,7 +14,7 @@ $fontNav:2.6vh;
 .titles {
 	font-family: $primaryFont;
 	font-size: $titleFont;
-	font-weight: bold;
+	font-weight: map-get($map:$fontWeights, $key:bold);
 	color:$black; 
 	text-align: center;
 	overflow: hidden;
@@ -22,7 +22,7 @@ $fontNav:2.6vh;
 .titles1{
 	font-family: $primaryFont;
 	font-size: $titleFont2;
-	font-weight: bold;
+	font-weight: map-get($map:$fontWeights, $key:bold);
 	color:$white; 
 	text-align: center;
 }

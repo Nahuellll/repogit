@@ -1,0 +1,21 @@
+// QUIENES SOMOS
+
+.textNosotros{
+    font-family: $footerFont;
+    font-size: $titleFont2;
+    animation-name: imagenOp;
+    animation-duration: 2s;
+}
+.divAlert{
+    background-color: $primaryColor;
+    border-radius:0.5vw;
+        h4{
+        font-size: xx-large;
+        color: $white;
+        overflow: hidden;
+        }
+        p{
+            font-size: large;
+            color: $white;
+            }
+}

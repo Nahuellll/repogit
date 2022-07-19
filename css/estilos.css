@@ -4,7 +4,7 @@
 .titles {
   font-family: "Open Sans", sans-serif;
   font-size: 4vh;
-  font-weight: bold;
+  font-weight: 700;
   color: #000;
   text-align: center;
   overflow: hidden; }
@@ -12,7 +12,7 @@
 .titles1 {
   font-family: "Open Sans", sans-serif;
   font-size: 3.6vh;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   text-align: center; }
 
@@ -32,7 +32,7 @@
   #barraNav li {
     margin: 2vw; }
 
-.btnButton {
+.btnButton, .divForm .btButton {
   background-color: #4334eb;
   color: #fff;
   border-radius: 1.2rem;
@@ -40,7 +40,7 @@
   font-size: 3vh;
   font-family: "Open Sans", sans-serif;
   width: 100%; }
-  .btnButton:hover {
+  .btnButton:hover, .divForm .btButton:hover {
     background-color: #00b4fc;
     cursor: pointer; }
 
@@ -72,13 +72,6 @@ body {
   width: 100%;
   height: 50%;
   margin: 0.5rem auto; }
-
-/* suscripciones */
-.fondo {
-  background: linear-gradient(#4334eb, #00b4fc);
-  border-style: solid;
-  border-color: #4334eb;
-  border-width: 0.1rem; }
 
 /* Footer */
 .bgFoot {
@@ -112,7 +105,7 @@ body {
   text-align: center;
   font-size: 2.6vh;
   font-family: "Roboto Mono", monospace;
-  font-weight: 0.8vh;
+  font-weight: 400;
   line-height: 3.2rem;
   color: #000; }
 
@@ -129,6 +122,13 @@ body {
   to {
     margin-left: 0%; } }
 
+/* suscripciones */
+.fondo {
+  background: linear-gradient(#4334eb, #00b4fc);
+  border-style: solid;
+  border-color: #4334eb;
+  border-width: 0.1rem; }
+
 @media (min-width: 280px) and (max-width: 991px) {
   #barraNav img {
     width: 30vw !important; }
@@ -142,3 +142,69 @@ body {
 @media (min-width: 992px) and (max-width: 1130px) {
   #barraNav a {
     font-size: 2.2vh !important; } }
+
+.divTitle {
+  background-color: #012677e6;
+  width: 100%; }
+  .divTitle h1 {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 4vh;
+    text-align: center;
+    font-weight: 700; }
+
+.divContenedor {
+  padding-left: 8vw;
+  animation-name: deslizamiento;
+  animation-duration: 2s; }
+
+.divColores {
+  width: 80%; }
+
+.textNosotros {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.6vh;
+  animation-name: imagenOp;
+  animation-duration: 2s; }
+
+.divAlert {
+  background-color: #4334eb;
+  border-radius: 0.5vw; }
+  .divAlert h4 {
+    font-size: xx-large;
+    color: #fff;
+    overflow: hidden; }
+  .divAlert p {
+    font-size: large;
+    color: #fff; }
+
+/* PAG TELAS POR USO BOOTSTRAP */
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 5vh;
+  color: #000;
+  text-align: center; }
+
+.usos {
+  font-size: 3vh;
+  color: #fff;
+  background-color: #4334eb;
+  border-radius: 0.8vw;
+  border-color: #00b4fc; }
+
+/* PAG CONTACTO */
+.divForm label {
+  font-size: x-large; }
+
+.divForm input {
+  height: 5vh; }
+
+.divForm textarea {
+  font-size: x-large; }
+
+.divForm .btButton {
+  width: max-content;
+  border: groove;
+  border-radius: 1rem;
+  border-color: #000;
+  background-color: #012677e6; }

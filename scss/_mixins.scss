@@ -1,0 +1,6 @@
+@mixin titles ($size,$color,) {
+    font-family:$primaryFont ;
+    font-size: $size;
+    color: $color;
+    text-align: center;
+}

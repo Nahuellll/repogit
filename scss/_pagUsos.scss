@@ -1,0 +1,11 @@
+/* PAG TELAS POR USO BOOTSTRAP */
+h1{
+	@include titles(5vh,$black)
+}
+.usos{
+	font-size: 3vh;
+	color: $white;
+	background-color: $primaryColor;
+	border-radius: 0.8vw;
+	border-color: $secondaryColor;
+}

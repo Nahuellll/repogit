@@ -3,8 +3,13 @@
 @import "_fonts";
 @import "_barraNav";
 @import"_commons";
-@import"_subscription";
+@import"_mixins";
 @import"_footer";
 @import"_keyframes";
+@import"_subscription";
 @import"_breakpoints";
-
+@import"_pagIndex";
+@import"pagColor";
+@import"_pagQuienes";
+@import"_pagUsos";
+@import"_pagContacto";

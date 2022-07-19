@@ -33,7 +33,7 @@
 		text-align: center;
 		font-size: $fontNav;
 		font-family:$footerFont;
-		font-weight: 0.8vh;
+        font-weight: map-get($map: $fontWeights, $key:regular );
 		line-height: 3.2rem;
 		color:$black;
 }
