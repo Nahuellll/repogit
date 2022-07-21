@@ -1,7 +1,7 @@
 {
-  "name": "clase1",
+  "name": "tienda de telas",
   "version": "1.0.0",
-  "description": "",
+  "description": "empresa de venta de telas online ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

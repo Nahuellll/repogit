@@ -80,7 +80,8 @@ body {
   .bgFoot h6 {
     font-family: "Open Sans", sans-serif;
     font-size: 2.6vh;
-    color: #fff; }
+    color: #fff;
+    overflow: hidden; }
     .bgFoot h6 a {
       font-family: "Open Sans", sans-serif;
       font-size: 2.6vh;
@@ -143,6 +144,14 @@ body {
   #barraNav a {
     font-size: 2.2vh !important; } }
 
+@media (min-width: 280px) and (max-width: 600px) {
+  .buscador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto; } }
+
 .divTitle {
   background-color: #012677e6;
   width: 100%; }
@@ -183,14 +192,28 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 5vh;
   color: #000;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
 
-.usos {
-  font-size: 3vh;
-  color: #fff;
-  background-color: #4334eb;
-  border-radius: 0.8vw;
-  border-color: #00b4fc; }
+.buscador {
+  background-color: #00b4fc;
+  margin: 2rem 4rem 4rem 0;
+  border-radius: 1rem;
+  width: max-content;
+  overflow: hidden; }
+  .buscador h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vh;
+    margin-right: 2rem;
+    overflow: hidden; }
+  .buscador input {
+    font-size: medium;
+    width: max-content; }
+  .buscador button {
+    width: max-content; }
+
+div h2 {
+  overflow: hidden; }
 
 /* PAG CONTACTO */
 .divForm label {
