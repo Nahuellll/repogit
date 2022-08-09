@@ -187,7 +187,7 @@ body {
     font-size: large;
     color: #fff; }
 
-/* PAG TELAS POR USO BOOTSTRAP */
+/* PAG TELAS POR USOS */
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 5vh;
@@ -196,24 +196,35 @@ h1 {
   overflow: hidden; }
 
 .buscador {
-  background-color: #00b4fc;
-  margin: 2rem 4rem 4rem 0;
-  border-radius: 1rem;
-  width: max-content;
+  background: linear-gradient(#4334eb, #00b4fc);
+  width: 100%;
+  height: 15vh;
   overflow: hidden; }
   .buscador h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 4vh;
-    margin-right: 2rem;
+    color: #fff;
+    margin: 2rem 2rem;
     overflow: hidden; }
   .buscador input {
     font-size: medium;
-    width: max-content; }
+    width: 15vw;
+    height: max-content;
+    margin: 2rem 2rem; }
   .buscador button {
-    width: max-content; }
+    width: 10vw;
+    height: max-content;
+    margin: 2rem 2rem; }
 
 div h2 {
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: 4vh;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-left: 30vw;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  height: 6vh; }
 
 /* PAG CONTACTO */
 .divForm label {
@@ -231,3 +242,32 @@ div h2 {
   border-radius: 1rem;
   border-color: #000;
   background-color: #012677e6; }
+
+.imgError {
+  width: 100%;
+  height: auto;
+  position: relative; }
+
+div .errorText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4vh;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 20vh;
+  right: 35vw; }
+
+div .volverButton {
+  padding: 1rem 1rem;
+  background-color: #4334eb;
+  color: #fff;
+  border-radius: 1.2rem;
+  border-color: #fff;
+  font-size: 3vh;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 98vh;
+  right: 48vw; }

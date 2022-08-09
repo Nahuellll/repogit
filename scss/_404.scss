@@ -1,0 +1,31 @@
+.imgError{ 
+        width:100%;
+        height:auto;
+        position: relative;
+    }
+    div{
+        .errorText{
+            font-family: $primaryFont;
+            font-size: $titleFont;
+            font-weight: bold;
+            color: $white;
+            margin-top: 1rem ;
+            margin-bottom: 1rem;
+            text-align: center;
+            position: absolute;
+            top:20vh;
+            right:35vw;
+            }
+            .volverButton{
+                padding: 1rem 1rem;
+                background-color: #4334eb;
+                color: #fff;
+                border-radius: 1.2rem;
+                border-color: #fff;
+                font-size: 3vh;
+                font-family: "Open Sans", sans-serif;
+                position: absolute;
+                top: 98vh;
+                right: 48vw;
+            }
+        } 

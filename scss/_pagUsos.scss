@@ -1,28 +1,40 @@
-/* PAG TELAS POR USO BOOTSTRAP */
+/* PAG TELAS POR USOS */
 h1{
 	@include titles(5vh,$black);
 	overflow: hidden;
 }
 .buscador{
-	background-color:$secondaryColor;
-	margin: 2rem 4rem 4rem 0;
-	border-radius: 1rem;
-	width: max-content;
+	background: linear-gradient( $primaryColor, $secondaryColor);
+	width: 100%;
+	height: 15vh;
 	overflow: hidden;
 	h2{
 		font-family: $primaryFont;
 		font-size: $titleFont;
-		margin-right: 2rem;
+		color: $white;
+		margin: 2rem 2rem; 
 		overflow: hidden;
 	}
 	input{
 		font-size: medium;
-		width: max-content;
+		width: 15vw;
+		height: max-content;
+		margin: 2rem 2rem; 
 	}
 	button{
-		width: max-content;
+		width: 10vw;
+		height: max-content;
+		margin: 2rem 2rem;
 	}
 	}
 	div{
-		h2{overflow: hidden;}
+		h2{ overflow: hidden;
+			font-size: $titleFont;
+			font-family: $primaryFont;
+			color: $white;
+			margin-left: 30vw;
+			margin-bottom: 3vh;
+			margin-top: 3vh;
+			height: 6vh;
+		}
 	}
