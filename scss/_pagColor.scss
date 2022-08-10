@@ -1,8 +1,15 @@
 .divContenedor{
 	padding-left: 8vw;
-	animation-name: deslizamiento;
-	animation-duration: 2s;
 }
 .divColores{
 	width: 80%;
+		.card-body{
+		background-color: $terciaryColor;
+		h2{
+		font-family: $primaryFont;
+		font-size: $titleFont;
+		color: $white;
+		overflow: hidden;
+		}
+	}
 }

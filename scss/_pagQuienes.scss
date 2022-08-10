@@ -1,21 +1,26 @@
 // QUIENES SOMOS
-
+.contraste{
+    background-color: rgba(128, 128, 128,0.8);
 .textNosotros{
-    font-family: $footerFont;
+    font-family: $primaryFont;
     font-size: $titleFont2;
+    color: $black;
     animation-name: imagenOp;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
+    margin: 1vh 1vw;
+}
 }
 .divAlert{
-    background-color: $primaryColor;
+	background: linear-gradient( $primaryColor, $secondaryColor);
     border-radius:0.5vw;
-        h4{
-        font-size: xx-large;
+        h2{
+        font-size: $titleFont;
         color: $white;
         overflow: hidden;
         }
         p{
-            font-size: large;
+            font-size: $titleFont2;
             color: $white;
+            text-align: center;
             }
 }
